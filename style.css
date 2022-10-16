@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( rgba(241, 223, 241, 0.884),rgba(241, 225, 241, 0.521),rgba(238, 223, 238, 0.199));
+    background-repeat:unset;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    margin-top: 10rem;
+    color: rebeccapurple;
+}
+.container{
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    height: 12rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+    box-shadow: 15px  30px 40px 10px rgba(102, 51, 153, 0.200);
+}
+label{
+    padding: 1rem;
+    margin-top: 5rem;
+    color: rgb(152, 78, 226);
+}
+input[type='password']{
+    background-color:rgba(128, 128, 128, 0.185);
+    border: transparent;
+    width: 90%;
+    color: rebeccapurple;
+    height: 2rem;
+    margin: 0.5rem;
+    font-size: large;
+    caret-color: rebeccapurple;
+    outline-color: rebeccapurple;
+    border-radius: 9px;
+}
+.next{
+    display: flex;
+}
+button{
+    margin-left: 10rem;
+    width: 40%;
+    padding: 0.2rem;
+    font-weight: bolder;
+    border: solid 1px rebeccapurple;
+    border-radius: 1rem;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    cursor: pointer;
+    color: orangered;
+    padding-left: 1rem;
+}
+
+@media (max-width:700px) {
+    p{
+     font-size: small;   
+    }
+    button{
+        padding: 0;
+        width: 15%;
+        position: relative;
+        right: 3rem;
+        padding:0px, 3px;
+        width: 50%;
+    }
+}
