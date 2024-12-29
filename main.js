@@ -1,5 +1,5 @@
-let newPass = document.getElementById('newPass')
-let confirmPass = document.getElementById('confirmPass')
+letlet newPass = document.getElementById('newPass')
+letleletletletleletleletletletletletleletleletletletleletleletletletletletletletlettletlet confirmPass = document.getElementById('confirmPass')
 let button = document.getElementById('btn')
 let showPassword = document.getElementById('showPass')
 button.addEventListener('click', ()=>{
@@ -20,4 +20,17 @@ showPassword.addEventListener('click', ()=>{
         newPass.type='password'
         confirmPass.type = 'password'
     }
-})
+
+function validateEmail(email) {
+    // Regular expression to validate email addresses
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return emailRegex.test(email);
+}
+
+// Example usage:
+const email = "example@example.com";
+if (validateEmail(email)) {
+    console.log("Valid email address");
+} else {
+    console.log("Invalid email address");
+letlet
