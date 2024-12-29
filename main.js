@@ -20,7 +20,7 @@ showPassword.addEventListener('click', ()=>{
         newPass.type='password'
         confirmPass.type = 'password'
     }
-
+})
 function validateEmail(email) {
     // Regular expression to validate email addresses
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -33,4 +33,5 @@ if (validateEmail(email)) {
     console.log("Valid email address");
 } else {
     console.log("Invalid email address");
-}
+    
+};
