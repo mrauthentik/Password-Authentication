@@ -1,5 +1,5 @@
-letlet newPass = document.getElementById('newPass')
-letleletletletleletleletletletletletleletleletletletleletleletletletletletletletlettletlet confirmPass = document.getElementById('confirmPass')
+let newPass = document.getElementById('newPass')
+let confirmPass = document.getElementById('confirmPass')
 let button = document.getElementById('btn')
 let showPassword = document.getElementById('showPass')
 button.addEventListener('click', ()=>{
@@ -33,4 +33,4 @@ if (validateEmail(email)) {
     console.log("Valid email address");
 } else {
     console.log("Invalid email address");
-letlet
+}
